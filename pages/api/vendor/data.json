@@ -1,0 +1,616 @@
+{
+    "data": [
+      {
+        "vendor_id": "421",
+        "store_name": "349 ผักสร้างป่า (เปิดทุกวัน 09.00-19.00 น.)",
+        "store_phone": "085-5313-926",
+        "store_location": {
+          "latitude": "18.79863222936893 ",
+          "longitude": " 99.03294845065147"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/11/1-ต่อ-1.jpg",
+        "categories": "อาหารอื่นๆ",
+        "registered": "2020-02-18"
+      },
+      {
+        "vendor_id": "155",
+        "store_name": "Amo Store (เปิดทุกวัน 10.00-17.00 น.)",
+        "store_phone": "062-8693-336",
+        "store_location": {
+          "latitude": "13.839503260957436",
+          "longitude": "100.64819109806973"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-FB_IMG_15879640303830005.jpg",
+        "categories": "สินค้า",
+        "registered": "2019-07-06"
+      },
+      {
+        "vendor_id": "30",
+        "store_name": "Baguayga cafe (เปิด พ.-ส. 08.00-17.00 น.)",
+        "store_phone": "061-2725-050",
+        "store_location": {
+          "latitude": "18.7987135",
+          "longitude": "99.03333359999999"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-Logo-Baguayga-Cafe.png",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2019-07-18"
+      },
+      {
+        "vendor_id": "156",
+        "store_name": "BKK Food Delivery (เปิดทุกวัน 10.00-17.00 น.)",
+        "store_phone": "090-9562-623",
+        "store_location": {
+          "latitude": "13.83949981911823",
+          "longitude": "100.64818420791397"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-Logo_BKK-Food-Delivery.jpg",
+        "categories": "อาหารอื่นๆ",
+        "registered": "2019-08-23"
+      },
+      {
+        "vendor_id": "233",
+        "store_name": "Cloud9 Cafe' - Huo Hin (เปิดทุกวัน 09.30-17.00 น.)",
+        "store_phone": "093-8957-459",
+        "store_location": {
+          "latitude": "12.57233747796602",
+          "longitude": "99.95712481312252"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/05/โลโก้เหลี่ยม.jpg",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2019-08-23"
+      },
+      {
+        "vendor_id": "423",
+        "store_name": "Give Me Coff (เปิดทุกวัน 08.00-16.00 น.)",
+        "store_phone": "090-9962-414",
+        "store_location": {
+          "latitude": "18.7970523 ",
+          "longitude": " 99.02191309999999"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/12/64237292_464166934381076_5907033195529895936_o.jpg",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2019-08-23"
+      },
+      {
+        "vendor_id": "453",
+        "store_name": "Gracetor House พิซซ่าริมคลอง",
+        "store_phone": "081-6841-867",
+        "store_location": {
+          "latitude": "18.713426168061417 ",
+          "longitude": " 98.99876542101272"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-FB_IMG_1610373407320.jpg",
+        "categories": "อาหารนานาชาติ",
+        "registered": "2019-09-06"
+      },
+      {
+        "vendor_id": "413",
+        "store_name": "HAZE FREE PRODUCT (เปิดทุกวัน 08.00-18.00 น. )",
+        "store_phone": "097-3541-941",
+        "store_location": {
+          "latitude": "18.764421 ",
+          "longitude": " 98.9371231"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/11/ผักมั๊ยไล่ควัน_๒๐๑๑๐๘_0.jpg",
+        "categories": "อาหารอื่นๆ",
+        "registered": "2019-09-06"
+      },
+      {
+        "vendor_id": "85",
+        "store_name": "Kojikane Sushi (เปิดทุกวัน 12.00-21.00 น.)",
+        "store_phone": "065-4385-807",
+        "store_location": {
+          "latitude": "18.749539902712065 ",
+          "longitude": " 98.96419118332825"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-S__21233693-1.jpg",
+        "categories": "อาหารนานาชาติ",
+        "registered": "2019-09-21"
+      },
+      {
+        "vendor_id": "473",
+        "store_name": "Minnie Salmon Cnx (เปิด จ.-ส. 10.00-17.00 น.)",
+        "store_phone": "063-2350-091",
+        "store_location": {
+          "latitude": "18.790986699999998 ",
+          "longitude": " 99.0239551"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-157766261_135102465185132_5810438801214616027_o.jpg",
+        "categories": "อาหารนานาชาติ",
+        "registered": "2019-10-28"
+      },
+      {
+        "vendor_id": "267",
+        "store_name": "Miracle Coffee by P'Ple - วงเวียนพายัพ (เปิดทุกวัน 07.30-16.00 น.)",
+        "store_phone": "088-1436-465",
+        "store_location": {
+          "latitude": "18.794200282194275",
+          "longitude": "99.02504591050541"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-S__33341457.jpg",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2019-11-02"
+      },
+      {
+        "vendor_id": "88",
+        "store_name": "Olive Closet (เปิดทุกวัน 10.00-22.00 น.)",
+        "store_phone": "089-2662-499",
+        "store_location": {
+          "latitude": "18.807878404303835",
+          "longitude": "99.01810468040463"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/04/BC873DED-16F1-4B62-ACCC-51AEDC8EF262.jpeg",
+        "categories": "สินค้า",
+        "registered": "2019-11-17"
+      },
+      {
+        "vendor_id": "181",
+        "store_name": "SuperYum",
+        "store_phone": "095-6759-158",
+        "store_location": {
+          "latitude": "18.76211655288605 ",
+          "longitude": " 98.9597475528717"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/05/XF.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2019-11-17"
+      },
+      {
+        "vendor_id": "189",
+        "store_name": "The Hobbies (เปิดทุกวัน 08.00-18.00 น.)",
+        "store_phone": "086-9182-112",
+        "store_location": {
+          "latitude": "18.67651690254203",
+          "longitude": "98.91482874896793"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-Logo_The-Hobbies.jpg",
+        "categories": "สินค้า",
+        "registered": "2019-11-17"
+      },
+      {
+        "vendor_id": "420",
+        "store_name": "ก๋วยเตี๋ยวลุยสวนแม่ษา ม.พายัพ (เปิด จ.-ส. 11.00-19.00 น.)",
+        "store_phone": "084-6171-801",
+        "store_location": {
+          "latitude": "18.7943532",
+          "longitude": "99.0294545"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/11/S__20103175.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2019-12-01"
+      },
+      {
+        "vendor_id": "367",
+        "store_name": "กะเพราร้อยถาด - ตลาดสามแยก(ตลาดใหม่) (เปิดทุกวัน 09.00-15.00 น.)",
+        "store_phone": "062-3041-779",
+        "store_location": {
+          "latitude": "18.81115133593462 ",
+          "longitude": " 99.02720510959625"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/09/XViN5wdbqQBFzXFUgexUMn6dyqQr_82wYzMKJsFi7LskJ_I1Ay5ZGUAL2qtsYBoxJqTJHabQSTalSYBNAiTlF1WJeduqP99Vr5KzhM_LCbT8G7YIB9H-TmF2UP-M4aR3.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2019-12-26"
+      },
+      {
+        "vendor_id": "389",
+        "store_name": "กาดใหม่ คอฟฟี่ (เปิด จ.-ศ. และ อาทิตย์ 07.00-16.00 น.)",
+        "store_phone": "094-9549-879",
+        "store_location": {
+          "latitude": "18.811048790168606 ",
+          "longitude": " 99.02709689503709"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/10/113525.jpg",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2020-02-24"
+      },
+      {
+        "vendor_id": "410",
+        "store_name": "ข้าวซอยจีราวรรณ (เปิดทุกวัน 08.00-21.00 น.)",
+        "store_phone": "093-1549-921",
+        "store_location": {
+          "latitude": "18.811195843880256 ",
+          "longitude": " 99.02717959551073"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/11/117002.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2020-02-25"
+      },
+      {
+        "vendor_id": "448",
+        "store_name": "ข้าวมันไก่จันทร์เพ็ญ (เปิดทุกวัน 07.30-15.00 น.)",
+        "store_phone": "089-2629-919",
+        "store_location": {
+          "latitude": "18.7961554 ",
+          "longitude": " 99.0245322"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/12/ข้ามันไก่จันทร์เพ็ญ_201216.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2020-03-03"
+      },
+      {
+        "vendor_id": "388",
+        "store_name": "ครัวน้ำฟ้า (Nom Fan Kitchen) (เปิดทุกวัน 09.00-18.00 น.)",
+        "store_phone": "086-3522-816",
+        "store_location": {
+          "latitude": "18.81103968217814 ",
+          "longitude": " 99.02710687890406"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/10/113511.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2020-03-30"
+      },
+      {
+        "vendor_id": "472",
+        "store_name": "คอร์นเฟลกพารวย (เปิด จ.-ศ. 10.00-17.30 น.)",
+        "store_phone": "094-8074-544",
+        "store_location": {
+          "latitude": "18.798176837445077",
+          "longitude": "99.0329772233963"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-153592929_1263976020684379_741140149951988481_n-1.jpg",
+        "categories": "อาหารอื่นๆ",
+        "registered": "2020-03-30"
+      },
+      {
+        "vendor_id": "422",
+        "store_name": "คะนึงหวาน (Ka Neung Wan) (เปิด จ.-ส. 10.00-16.30 น.)",
+        "store_phone": "089-1450-921",
+        "store_location": {
+          "latitude": "18.7963005 ",
+          "longitude": " 99.024536"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-70399452_106049260787910_1051127945013231616_o.jpg",
+        "categories": "อาหารอื่นๆ",
+        "registered": "2021-11-04"
+      },
+      {
+        "vendor_id": "449",
+        "store_name": "ฉางเฝิ่น (อาหารฟิวชันสไตล์กวางตุ้ง) (เปิด จันทร์ และ พ.-อา. 08.00-14.00 น.)",
+        "store_phone": "082-6163-564",
+        "store_location": {
+          "latitude": "18.79614691106016 ",
+          "longitude": " 99.0244215461818"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/12/LOGO.jpg",
+        "categories": "อาหารนานาชาติ",
+        "registered": "2021-12-18"
+      },
+      {
+        "vendor_id": "94",
+        "store_name": "ชาบูกินนี่ (เปิดทุกวัน 11.00-20.30 น.)",
+        "store_phone": "099-9487-707",
+        "store_location": {
+          "latitude": "18.7985993 ",
+          "longitude": " 99.0331703"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-66401816_2603289006356629_4702841257561423872_o.png",
+        "categories": "อาหารอื่นๆ",
+        "registered": "2020-01-23"
+      },
+      {
+        "vendor_id": "258",
+        "store_name": "ชาลีชามุก (Chalee Chamook) (เปิดทุกวัน 10.00-17.00 น.)",
+        "store_phone": "085-6155-466",
+        "store_location": {
+          "latitude": "18.794386435675374",
+          "longitude": "99.02945029840087"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-157673.jpg",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2020-04-02"
+      },
+      {
+        "vendor_id": "484",
+        "store_name": "ชาโรตีสถาน (Cha Roti Stan)",
+        "store_phone": "083-1236-184",
+        "store_location": {
+          "latitude": "13.767100335204043 ",
+          "longitude": " 100.67781507968903"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2021/05/0001-18624515075_20210321_211412_0000.png",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2020-04-25"
+      },
+      {
+        "vendor_id": "176",
+        "store_name": "ซะ​ป๊ะ​สมุนไพร​ไทย​ - สาขาหน้า ร.ร.ดาราวิทยาลัย (เปิด จ.-ส. 09.00-18.00 น.)",
+        "store_phone": "053-245-624",
+        "store_location": {
+          "latitude": "18.799712119250376",
+          "longitude": "99.01247162040485"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-Logo_ร้านซะป๊ะสมุนไพรไทย.jpg",
+        "categories": "สินค้า",
+        "registered": "2020-04-26"
+      },
+      {
+        "vendor_id": "242",
+        "store_name": "ซีเอ็ม พาร์ท เซ็นเตอร์ (CM Part Center) (เปิด จ.-ส. 08.00-17.00 น.)",
+        "store_phone": "088-5478-294",
+        "store_location": {
+          "latitude": "18.7849093150868 ",
+          "longitude": " 99.01827335357666"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/06/cmp.png",
+        "categories": "สินค้า",
+        "registered": "2020-04-26"
+      },
+      {
+        "vendor_id": "458",
+        "store_name": "น้องเปอร์ผักสด - ส่งฟรี พรีออเดอร์เชียงใหม่ (เปิดทุกวัน 08.00-23.50 น.)",
+        "store_phone": "095-6966-392",
+        "store_location": {
+          "latitude": "18.7961474 ",
+          "longitude": " 98.9992025"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2021/01/น้องเปอร์ผักสด.jpg",
+        "categories": "อาหารอื่นๆ",
+        "registered": "2020-05-09"
+      },
+      {
+        "vendor_id": "417",
+        "store_name": "นานะซูชิ (เปิดทุกวัน 11.00-22.00 น.)",
+        "store_phone": "063-9376-337",
+        "store_location": {
+          "latitude": "18.79069381726321",
+          "longitude": "99.02639425991133"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/11/IMG_25631119_150815.jpg",
+        "categories": "อาหารนานาชาติ",
+        "registered": "2020-05-09"
+      },
+      {
+        "vendor_id": "159",
+        "store_name": "น้ำปลาร้าแอบแซ่บ (เปิด 08.00-22.00 น.)",
+        "store_phone": "061-6861-688",
+        "store_location": {
+          "latitude": "18.79642155103845",
+          "longitude": "98.98010941014253"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/04/82143435_1247112602145868_6674349547004624896_n.jpg",
+        "categories": "อาหารอื่นๆ",
+        "registered": "2020-05-09"
+      },
+      {
+        "vendor_id": "101",
+        "store_name": "บริษัท นพรัตน์กู๊ดไทร์ (ซุปเปอร์) จำกัด (เปิดทุกวัน 08.00-17.00 น.)",
+        "store_phone": "053-116-197",
+        "store_location": {
+          "latitude": "18.7842634",
+          "longitude": "99.0270918"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/04/287650.jpg",
+        "categories": "สินค้า",
+        "registered": "2020-05-17"
+      },
+      {
+        "vendor_id": "394",
+        "store_name": "บัวลอย กาแฟนมสด (เปิดทุกวัน 08.30-17.00 น.)",
+        "store_phone": "081-3878-596",
+        "store_location": {
+          "latitude": "18.811074259614784 ",
+          "longitude": " 99.02753286260902"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/10/S__17391642.jpg",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2020-05-17"
+      },
+      {
+        "vendor_id": "362",
+        "store_name": "บี่เฮียงโภชนา (เปิดทุกวัน 10.00 - 21.00 น.)",
+        "store_phone": "095-1366-662",
+        "store_location": {
+          "latitude": "18.7913893 ",
+          "longitude": " 99.0270321"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/09/Logo-บี่เฮียงโภชนา.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2020-05-17"
+      },
+      {
+        "vendor_id": "299",
+        "store_name": "บุญรอด (Boonrawd Cuisine) (เปิดทุกวัน 08.30-20.00 น.)",
+        "store_phone": "088-2464-665",
+        "store_location": {
+          "latitude": "18.787734079077673",
+          "longitude": "98.99306510510671"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-2021.01.08-ร้านบุญรอด02.png.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2020-08-01"
+      },
+      {
+        "vendor_id": "248",
+        "store_name": "ป้าต่ายขาหมู - หน้า ม.พายัพ (เปิด จ.-ส. 07.00-14.00 น.)",
+        "store_phone": "080-0424-148",
+        "store_location": {
+          "latitude": "18.794356659949486",
+          "longitude": "99.02947157621384"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-89539.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2020-08-01"
+      },
+      {
+        "vendor_id": "361",
+        "store_name": "ป้านิ่มน้ำปั่น - ตลาดสามแยก(ตลาดใหม่) (เปิดทุกวัน 10.00 - 17.30 น.)",
+        "store_phone": "063-8209-616",
+        "store_location": {
+          "latitude": "18.81120465372704",
+          "longitude": "99.0272668004036"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/08/Untitled-1.png",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2020-08-01"
+      },
+      {
+        "vendor_id": "412",
+        "store_name": "ผลไม้สดพร้อมทาน Happy fruits",
+        "store_phone": "092-7501-191",
+        "store_location": {
+          "latitude": "13.895251735161146 ",
+          "longitude": " 100.63352221143724"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/11/om-logo.jpg",
+        "categories": "อาหารอื่นๆ",
+        "registered": "2020-05-31"
+      },
+      {
+        "vendor_id": "397",
+        "store_name": "ผัดไทยเลิศรส(สาขา4) (เปิด จ.-ส. 10.00-16.00 น.)",
+        "store_phone": "098-2749-831",
+        "store_location": {
+          "latitude": "18.811204678489656 ",
+          "longitude": " 99.02728038334321"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/10/S__17309725.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2020-05-31"
+      },
+      {
+        "vendor_id": "390",
+        "store_name": "ยายออย ปอเปี๊ยะ-ทอดมัน (เปิด จ.-ส. 10.00-17.00 น.)",
+        "store_phone": "089-9977-629",
+        "store_location": {
+          "latitude": "18.811175116200094 ",
+          "longitude": " 99.0272929337462"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/10/S__17203207.jpg",
+        "categories": "Uncategorized",
+        "registered": "2020-05-31"
+      },
+      {
+        "vendor_id": "408",
+        "store_name": "ร้านส้มซ่าส์(พายัพ) (เปิดทุกวัน 09.00-21:00 น.)",
+        "store_phone": "082-8490-059",
+        "store_location": {
+          "latitude": "18.794121818776603 ",
+          "longitude": " 99.02481655277931"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-logo-ส้มซ่าส์-2.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2020-05-31"
+      },
+      {
+        "vendor_id": "8",
+        "store_name": "ลำดีตี้ขัวแดง (เปิดทุกวัน 10.00-21.00 น.)",
+        "store_phone": "086-6883-688",
+        "store_location": {
+          "latitude": "18.7984565",
+          "longitude": "99.0331509"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/02/cropped-Group-13297.png",
+        "categories": "อาหารไทย",
+        "registered": "2020-05-31"
+      },
+      {
+        "vendor_id": "32",
+        "store_name": "วนัสนันท์ (เปิดทุกวัน 07.00-20.00 น.)",
+        "store_phone": "081-9618-144",
+        "store_location": {
+          "latitude": "18.80762978527198",
+          "longitude": "99.01475429534912"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-images.png",
+        "categories": "อาหารไทย",
+        "registered": "2020-05-31"
+      },
+      {
+        "vendor_id": "253",
+        "store_name": "สถานีกาแฟ (Coffee station) (เปิดทุกวัน 09.00-18.00 น.)",
+        "store_phone": "081-5947-443",
+        "store_location": {
+          "latitude": "18.73992041957457",
+          "longitude": "99.01145419674793"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-160676-1.jpg",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2020-05-17"
+      },
+      {
+        "vendor_id": "278",
+        "store_name": "สวีทบัน - ปั้ม ปตท.บ้านสันคือ สารภี (เปิดทุกวัน 08.00-17.00 น.)",
+        "store_phone": "092-6439-363",
+        "store_location": {
+          "latitude": "18.747402777381453 ",
+          "longitude": " 99.01963815095769"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/07/104057445_100560955048039_6178526787133081845_n.jpg",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2020-06-03"
+      },
+      {
+        "vendor_id": "277",
+        "store_name": "สวีทบัน - ปั๊ม ปตท.หลัง ม.พายัพ (เปิดทุกวัน 08.00-17.00 น.)",
+        "store_phone": "092-6439-363",
+        "store_location": {
+          "latitude": "18.7945871 ",
+          "longitude": " 99.0363752"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/07/104057445_100560955048039_6178526787133081845_n.jpg",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2020-06-03"
+      },
+      {
+        "vendor_id": "470",
+        "store_name": "สเต็กตาหวาน สาขาสามแยกพระประแดง",
+        "store_phone": "083-8165-382",
+        "store_location": {
+          "latitude": "13.658910916777259 ",
+          "longitude": " 100.5194860696929"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/03/cropped-LOGO-Streak-Eye-Sweet.jpg",
+        "categories": "อาหารนานาชาติ",
+        "registered": "2020-06-03"
+      },
+      {
+        "vendor_id": "379",
+        "store_name": "หลงชา (Long Cha) - ม.พายัพ (เปิดทุกวัน 08.30-19.00 น.)",
+        "store_phone": "083-4799-779",
+        "store_location": {
+          "latitude": "18.7908916 ",
+          "longitude": " 99.0262271"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/10/116871797_102028651616342_8599241236306782739_n.jpg",
+        "categories": "ขนมและเครื่องดื่ม",
+        "registered": "2020-06-29"
+      },
+      {
+        "vendor_id": "232",
+        "store_name": "อัมพรผลไม้สด - หน้า ม.พายัพ (เปิด จ.-ส. 09.00-18.00 น.)",
+        "store_phone": "089-2645-909",
+        "store_location": {
+          "latitude": "18.794204349160754 ",
+          "longitude": " 99.02921345266438"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/05/5382.jpg",
+        "categories": "อาหารอื่นๆ",
+        "registered": "2020-06-29"
+      },
+      {
+        "vendor_id": "387",
+        "store_name": "เตี๋ยวเลียศอก (เปิด จ.-ศ. และ อาทิตย์ 10.00-15.30 น.)",
+        "store_phone": "062-1949-702",
+        "store_location": {
+          "latitude": "18.811026382895133 ",
+          "longitude": " 99.02702179318467"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/10/S__17186857.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2020-06-29"
+      },
+      {
+        "vendor_id": "393",
+        "store_name": "แซ่บอีหลีอีหลอ By ต้อม (เปิดทุกวัน 08.00-16.30 น.)",
+        "store_phone": "087-3274-428",
+        "store_location": {
+          "latitude": "18.811097810092875 ",
+          "longitude": " 99.02715573924549"
+        },
+        "source": "https://foods.omplatform.com/wp-content/uploads/2020/10/113804.jpg",
+        "categories": "อาหารไทย",
+        "registered": "2020-12-29"
+      }
+    ]
+}
