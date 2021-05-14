@@ -49,23 +49,9 @@ function Home({ data }) {
   const [autoSearch, setAutoSearch] = useState('')
 
   useEffect(async() => {
-    // await fetch('/api/vendor').then(response => response.json())
-    // .then(data => {
-    //   setResData(data.data)
-    //   setRawData(data.data)
-
-    //   data.data.map(e => {
-    //     setDateQueue(x => [...x, moment(e.registered).format('X')]);
-    //   })
-
-    //   setPreload(false)
-    // }).catch(error => {
-    //   console.log(error)
-    //   setResData([])
-    //   setPreload(false)
-    // });
-
-    setResData(data.data)
+    await fetch('/api/https://foods.omplatform.com/api/om_food/v3/vendor/ordering').then(response => response.json())
+    .then(data => {
+      setResData(data.data)
       setRawData(data.data)
 
       data.data.map(e => {
@@ -73,6 +59,11 @@ function Home({ data }) {
       })
 
       setPreload(false)
+    }).catch(error => {
+      console.log(error)
+      setResData([])
+      setPreload(false)
+    });
   }, [])
 
   const clearForm = () => {
@@ -189,13 +180,13 @@ function Home({ data }) {
 }
 
 
-export async function getServerSideProps() {
-  // Fetch data from external API
-  const res = await fetch('/api/vendor')
-  const data = await res.json()
+// export async function getStaticProps() {
+//   // Fetch data from external API
+//   const res = await fetch('/api/vendor')
+//   const data = await res.json()
 
-  // Pass data to the page via props
-  return { props: { data } }
-}
+//   // Pass data to the page via props
+//   return { props: { data } }
+// }
 
 export default Home
