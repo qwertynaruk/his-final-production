@@ -1,4 +1,4 @@
-import data from "../../vendor/data.json"
+import data from "../data.json"
 
 export default ({ query: { name } }, res) => {
     const _find = data.data.filter(x => x.store_name.toLowerCase().indexOf(name.toLowerCase()) >= 0)

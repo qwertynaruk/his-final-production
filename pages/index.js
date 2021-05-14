@@ -39,7 +39,7 @@ class ThLocalizedUtils extends DateFnsUtils {
   }
 }
 
-export default function Home() {
+function Home({ data }) {
   const [preload, setPreload] = useState(true)
   const [selectedDate, setSelectedDate] = useState(Date.now())
   const [selectedTime, handleTimeChange] = useState(Date.now())
@@ -49,9 +49,23 @@ export default function Home() {
   const [autoSearch, setAutoSearch] = useState('')
 
   useEffect(async() => {
-    await fetch('/api/vendor').then(response => response.json())
-    .then(data => {
-      setResData(data.data)
+    // await fetch('/api/vendor').then(response => response.json())
+    // .then(data => {
+    //   setResData(data.data)
+    //   setRawData(data.data)
+
+    //   data.data.map(e => {
+    //     setDateQueue(x => [...x, moment(e.registered).format('X')]);
+    //   })
+
+    //   setPreload(false)
+    // }).catch(error => {
+    //   console.log(error)
+    //   setResData([])
+    //   setPreload(false)
+    // });
+
+    setResData(data.data)
       setRawData(data.data)
 
       data.data.map(e => {
@@ -59,11 +73,6 @@ export default function Home() {
       })
 
       setPreload(false)
-    }).catch(error => {
-      console.log(error)
-      setResData([])
-      setPreload(false)
-    });
   }, [])
 
   const clearForm = () => {
@@ -102,7 +111,7 @@ export default function Home() {
       return true
     }
     
-    await fetch(`/api/search/name/${vs}`).then(response => response.json())
+    await fetch(`/api/search/${vs}`).then(response => response.json())
     .then(data => {
       const { code, now } = data
       setResData(code === 200 ? now : [])
@@ -120,7 +129,7 @@ export default function Home() {
       </div>
 
       <div className="container">
-        
+        {preload ? <Skeleton variant="rect" width={`80%`} height={100} style={{ marginBottom: '3em' }} /> :
         <Grid container spacing={1} className="searchGroup">
          
           <Grid item xs={12} sm={6} md={4}>
@@ -167,14 +176,26 @@ export default function Home() {
             </Button>
           </Grid>
 
-        </Grid>
+        </Grid>}
 
         <Grid container>
           <Grid item xs={12}>
-            <DashTable resData={resData} />
+            {preload ? <Skeleton variant="rect" width={`80%`} height={500} /> : <DashTable resData={resData} />}
           </Grid>
         </Grid>
       </div>
     </div>
   )
 }
+
+
+export async function getServerSideProps() {
+  // Fetch data from external API
+  const res = await fetch('/api/vendor')
+  const data = await res.json()
+
+  // Pass data to the page via props
+  return { props: { data } }
+}
+
+export default Home
