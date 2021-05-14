@@ -19,6 +19,7 @@ import {
 // Include Component
 import Header from '../components/header';
 import DashTable from '../components/dash-tables';
+import BgParticles from '../components/bg-particles';
 
 class ThLocalizedUtils extends DateFnsUtils {
   getYearText(date) {
@@ -109,44 +110,48 @@ export default function Home() {
   return (
     <div>
       <Header />
+
+      <div className="bgCanvas">
+        <BgParticles />
+      </div>
+
       <div className="container">
-        <Grid container spacing={1}>
-          <Grid container item xs={10}>
-            <Grid item xs={4}>
-              <TextField
-                value={autoSearch}
-                onChange={handleSearch}
-                label="ค้นหาด้วยชื่อร้าน"
-              />
-            </Grid>
-
-            <Grid item xs={4}>
-              <MuiPickersUtilsProvider utils={ThLocalizedUtils} locale={thLocale}>
-                <KeyboardDatePicker
-                  margin="normal"
-                  format="MM/dd/yyyy"
-                  value={selectedDate}
-                  onChange={handleDateChange}
-                  minDate={limitDate()._minD}
-                  maxDate={limitDate()._maxD}
-                  minDateMessage={''}
-                  maxDateMessage={''}
-                />
-              </MuiPickersUtilsProvider>
-            </Grid>
-
-            <Grid item xs={4}>
-              <MuiPickersUtilsProvider utils={ThLocalizedUtils} locale={thLocale}>
-                <KeyboardTimePicker
-                  margin="normal"
-                  value={selectedTime}
-                  onChange={handleTimeChange}
-                />
-              </MuiPickersUtilsProvider>
-            </Grid>
+        <Grid container spacing={1} className="searchGroup">
+         
+          <Grid item xs={12} sm={6} md={4}>
+            <TextField
+              value={autoSearch}
+              onChange={handleSearch}
+              label="ค้นหาด้วยชื่อร้าน"
+            />
           </Grid>
 
-          <Grid item xs={2}>
+          <Grid item xs={12} sm={6} md={3}>
+            <MuiPickersUtilsProvider utils={ThLocalizedUtils} locale={thLocale}>
+              <KeyboardDatePicker
+                margin="normal"
+                format="MM/dd/yyyy"
+                value={selectedDate}
+                onChange={handleDateChange}
+                minDate={limitDate()._minD}
+                maxDate={limitDate()._maxD}
+                minDateMessage={''}
+                maxDateMessage={''}
+              />
+            </MuiPickersUtilsProvider>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={3}>
+            <MuiPickersUtilsProvider utils={ThLocalizedUtils} locale={thLocale}>
+              <KeyboardTimePicker
+                margin="normal"
+                value={selectedTime}
+                onChange={handleTimeChange}
+              />
+            </MuiPickersUtilsProvider>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={2}>
             <Button
               variant="contained"
               color="secondary"
@@ -156,6 +161,7 @@ export default function Home() {
               Clear Search
             </Button>
           </Grid>
+
         </Grid>
 
         <Grid container>

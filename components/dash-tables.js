@@ -43,8 +43,8 @@ export default function DashTable({ resData }) {
     const options = {
         filter: true,
         filterType: "dropdown",
-        responsive: "standard",
-        tableBodyHeight: "600px",
+        responsive: "vertical",
+        tableBodyHeight: "500px",
         download: false,
         print: false,
         search: false,
