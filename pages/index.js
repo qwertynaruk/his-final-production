@@ -120,7 +120,7 @@ export default function Home() {
       </div>
 
       <div className="container">
-        {preload ? <Skeleton variant="rect" width={`80%`} height={100} style={{ marginBottom: '3em' }} /> :
+        
         <Grid container spacing={1} className="searchGroup">
          
           <Grid item xs={12} sm={6} md={4}>
@@ -167,11 +167,11 @@ export default function Home() {
             </Button>
           </Grid>
 
-        </Grid>}
+        </Grid>
 
         <Grid container>
           <Grid item xs={12}>
-            {preload ? <Skeleton variant="rect" width={`80%`} height={500} /> : <DashTable resData={resData} />}
+            <DashTable resData={resData} />
           </Grid>
         </Grid>
       </div>
