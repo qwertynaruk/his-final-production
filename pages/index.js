@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 // Material Template
 import {Grid, TextField, Button} from '@material-ui/core';
 import DeleteIcon from '@material-ui/icons/Delete';
-import Icon from '@material-ui/core/Icon';
+import Skeleton from '@material-ui/lab/Skeleton';
 
 // Date & Time picker lib
 import moment from 'moment';
@@ -40,6 +40,7 @@ class ThLocalizedUtils extends DateFnsUtils {
 }
 
 export default function Home() {
+  const [preload, setPreload] = useState(true)
   const [selectedDate, setSelectedDate] = useState(Date.now())
   const [selectedTime, handleTimeChange] = useState(Date.now())
   const [resData, setResData] = useState([])
@@ -56,9 +57,12 @@ export default function Home() {
       data.data.map(e => {
         setDateQueue(x => [...x, moment(e.registered).format('X')]);
       })
+
+      setPreload(false)
     }).catch(error => {
       console.log(error)
       setResData([])
+      setPreload(false)
     });
   }, [])
 
@@ -116,6 +120,7 @@ export default function Home() {
       </div>
 
       <div className="container">
+        {preload ? <Skeleton variant="rect" width={`80%`} height={100} style={{ marginBottom: '3em' }} /> :
         <Grid container spacing={1} className="searchGroup">
          
           <Grid item xs={12} sm={6} md={4}>
@@ -162,11 +167,11 @@ export default function Home() {
             </Button>
           </Grid>
 
-        </Grid>
+        </Grid>}
 
         <Grid container>
           <Grid item xs={12}>
-            <DashTable resData={resData} />
+            {preload ? <Skeleton variant="rect" width={`80%`} height={500} /> : <DashTable resData={resData} />}
           </Grid>
         </Grid>
       </div>
