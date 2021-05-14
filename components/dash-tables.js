@@ -3,17 +3,6 @@ import MUIDataTable from "mui-datatables";
 
 export default function DashTable({ resData }) {
     const columns = [{
-        name: "source",
-        label: "Picture",
-        options: {
-            sort: false,
-            filter: false,
-            viewColumns: false,
-            customBodyRender: (value) => (
-                <img src={value} alt={`his`} />
-            )
-        }
-    }, {
         name: "store_name",
         label: "Store Name",
     }, {
@@ -62,11 +51,8 @@ export default function DashTable({ resData }) {
         selectableRows: 'none'
     };
 
-    console.log('re:', resData)
-
     return (
         <MUIDataTable
-            title={"ACME Employee list"}
             data={resData}
             columns={columns}
             options={options}
