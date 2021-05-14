@@ -20,6 +20,7 @@ import {
 import Header from '../components/header';
 import DashTable from '../components/dash-tables';
 import BgParticles from '../components/bg-particles';
+import _data from './api/data.json'
 
 class ThLocalizedUtils extends DateFnsUtils {
   getYearText(date) {
@@ -39,7 +40,7 @@ class ThLocalizedUtils extends DateFnsUtils {
   }
 }
 
-function Home({ data }) {
+function Home() {
   const [preload, setPreload] = useState(true)
   const [selectedDate, setSelectedDate] = useState(Date.now())
   const [selectedTime, handleTimeChange] = useState(Date.now())
@@ -49,21 +50,14 @@ function Home({ data }) {
   const [autoSearch, setAutoSearch] = useState('')
 
   useEffect(async() => {
-    await fetch('https://foods.omplatform.com/api/om_food/v3/vendor/ordering').then(response => response.json())
-    .then(data => {
-      setResData(data.data)
-      setRawData(data.data)
+    setResData(_data.data)
+    setRawData(_data.data)
 
-      data.data.map(e => {
-        setDateQueue(x => [...x, moment(e.registered).format('X')]);
-      })
+    _data.data.map(e => {
+      setDateQueue(x => [...x, moment(e.registered).format('X')]);
+    })
 
-      setPreload(false)
-    }).catch(error => {
-      console.log(error)
-      setResData([])
-      setPreload(false)
-    });
+    setPreload(false)
   }, [])
 
   const clearForm = () => {
@@ -102,13 +96,8 @@ function Home({ data }) {
       return true
     }
     
-    await fetch(`/api/search/${vs}`).then(response => response.json())
-    .then(data => {
-      const { code, now } = data
-      setResData(code === 200 ? now : [])
-    }).catch(error => {
-      setResData([])
-    });
+    const _find = _data.data.filter(x => x.store_name.toLowerCase().indexOf(vs.toLowerCase()) >= 0)
+    setResData(_find.length > 0 ? _find : [])
   }
 
   return (
@@ -178,15 +167,5 @@ function Home({ data }) {
     </div>
   )
 }
-
-
-// export async function getStaticProps() {
-//   // Fetch data from external API
-//   const res = await fetch('/api/vendor')
-//   const data = await res.json()
-
-//   // Pass data to the page via props
-//   return { props: { data } }
-// }
 
 export default Home
